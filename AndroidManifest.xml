@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.generatelecturenote"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.generatelecturenote.IPSettings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.generatelecturenote.Login" />
+        <activity android:name="com.example.generatelecturenote.StudentHome" />
+        <activity android:name="com.example.generatelecturenote.TeacherHome" />
+        <activity android:name="com.example.generatelecturenote.Recognizer" />
+        <activity android:name="com.example.generatelecturenote.SaveFiles" />
+        <activity android:name="com.example.generatelecturenote.Teacherviewleacturenote" />
+        <activity android:name="com.example.generatelecturenote.Techercorrectnotes" />
+        <activity android:name="com.example.generatelecturenote.UploadDocuments" />
+        <activity android:name="com.example.generatelecturenote.Studentviwlwcturenotes" />
+        <activity android:name="com.example.generatelecturenote.Studntlecturentes" />
+        <activity android:name="com.example.generatelecturenote.Studentviewteachers" />
+        <activity
+            android:name="com.example.generatelecturenote.Notifications"
+            android:label="@string/title_activity_notifications" >
+        </activity>
+        <activity
+            android:name="com.example.generatelecturenote.Teacherviewnotification"
+            android:label="@string/title_activity_teacherviewnotification" >
+        </activity>
+        <activity
+            android:name="com.example.generatelecturenote.ChatHere"
+            android:label="@string/title_activity_chat_here" >
+        </activity>
+        <activity
+            android:name="com.example.generatelecturenote.ViewQueries"
+            android:label="@string/title_activity_view_queries" >
+        </activity>
+        <activity
+            android:name="com.example.generatelecturenote.Tanswerqueries"
+            android:label="@string/title_activity_tanswerqueries" >
+        </activity>
+        <activity
+            android:name="com.example.generatelecturenote.StudentQueries"
+            android:label="@string/title_activity_student_queries" >
+        </activity>
+        <activity
+            android:name="com.example.generatelecturenote.Studentviewnotification"
+            android:label="@string/title_activity_studentviewnotification" >
+        </activity>
+        <activity
+            android:name="com.example.generatelecturenote.StudentFeedback"
+            android:label="@string/title_activity_student_feedback" >
+        </activity>
+        <activity
+            android:name="com.example.generatelecturenote.Studentdownloadmaterials"
+            android:label="@string/title_activity_studentdownloadmaterials" >
+        </activity>
+        <activity
+            android:name="com.example.generatelecturenote.StudentRatingnote"
+            android:label="@string/title_activity_student_ratingnote" >
+        </activity>
+        <activity
+            android:name="com.example.generatelecturenote.TeacherViewChat"
+            android:label="@string/title_activity_teacher_view_chat" >
+        </activity>
+        <activity
+            android:name="com.example.generatelecturenote.StudentRegistration"
+            android:label="@string/title_activity_student_registration" >
+        </activity>
+        <activity
+            android:name="com.example.generatelecturenote.TeacherRegistration"
+            android:label="@string/title_activity_teacher_registration" >
+        </activity>
+        <activity
+            android:name="com.example.generatelecturenote.Teacherviewstudents"
+            android:label="@string/title_activity_teacherviewstudents" >
+        </activity>
+    </application>
+
+</manifest>
